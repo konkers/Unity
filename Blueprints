@@ -1,0 +1,10 @@
+cc_library {
+    name = "unity",
+    srcs = [
+        "src/unity.c",
+    ],
+    incs = [
+        "src/unity.h",
+        "src/unity_internals.h",
+    ],
+}
